@@ -32,7 +32,7 @@ namespace ExShop
                 Console.WriteLine(selectedItem.name);
             }
         }
-
+        //daffswgerrger
         public static void Buy(double availableCash)
         {
             foreach (var item in SelectedItems)
