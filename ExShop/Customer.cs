@@ -17,12 +17,15 @@
 
         public Customer(int id, string firstName, string lastName, string email)
         {
-            Id = Id;
+            Id = id;
             FirstName = firstName;
             LastName = lastName;
             Email = email;
             Cash = 300;
+            
         }
+
+        
 
         public Customer(int id, string firstName, string lastName, string email, double cash)
         {
@@ -38,5 +41,17 @@
         public string LastName { get; set; }
         public string Email { get; set; }
         public double Cash { get; set; }
+
+
+            public void Chodzi(string name)
+            {
+
+                System.Console.WriteLine("idzie do przodu");
+
+
+            }
+
+
+
     }
 }

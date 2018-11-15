@@ -27,6 +27,7 @@ namespace ExShop
             var biedak = new Customer(3, "Pan", "Zul", "brak", 5.5);
             var mracin = new Customer();
 
+            
 
             // tworzenie przedmiotow
             var maczuga = new Item();
